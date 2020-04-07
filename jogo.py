@@ -1,4 +1,4 @@
-# jogo da velha
+# jogo da velha 
 
 def tela():
     def opcao(celula):
@@ -38,7 +38,6 @@ def fim():
             fim = True
     if (grade[2] == grade[4] and grade[4] == grade[6]) and grade[2] != " " and grade[4] != " " and grade[6] != " ":
             fim = True
-
     return fim
 
 
